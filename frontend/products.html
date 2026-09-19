@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse products">
+  <title>ShopEase | Products</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="logo" href="index.html">ShopEase</a>
+      <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="products.html" class="active">Products</a>
+        <a href="orders.html" class="auth-link logged-in-only">Orders</a>
+        <a href="login.html" class="auth-link logged-out-only">Login</a>
+        <a href="register.html" class="auth-link logged-out-only">Register</a>
+        <button id="logoutBtn" class="nav-button logged-in-only">Logout</button>
+        <a class="cart-link" href="cart.html">Cart (<span class="cart-count">0</span>)</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-banner">
+      <div class="container">
+        <span class="eyebrow">Store</span>
+        <h1>All Products</h1>
+        <p>Find the products you need and add them to your cart.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="toolbar">
+          <div class="search-box">
+            <label class="sr-only" for="searchInput">Search products</label>
+            <input id="searchInput" type="search" placeholder="Search products...">
+          </div>
+          <div>
+            <label class="sr-only" for="categorySelect">Filter by category</label>
+            <select id="categorySelect">
+              <option value="">All categories</option>
+            </select>
+          </div>
+        </div>
+
+        <div id="productsGrid" class="product-grid">
+          <div class="loading">Loading products...</div>
+        </div>
+        <div id="emptyState" class="empty-state hidden">
+          <h3>No products found</h3>
+          <p>Try another search or category.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© 2026 ShopEase.</p>
+      <p>Responsive e-commerce frontend.</p>
+    </div>
+  </footer>
+
+  <script type="module" src="js/main.js"></script>
+  <script type="module" src="js/products.js"></script>
+</body>
+</html>
