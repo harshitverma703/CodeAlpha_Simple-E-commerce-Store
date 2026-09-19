@@ -15,10 +15,10 @@ document.addEventListener("DOMContentLoaded", async () => {
     const data = await apiFetch(`/products/${encodeURIComponent(id)}`);
     const product = data.product || data;
 
-    const imageHtml = product.image
-      ? `<img src="${escapeHtml(product.image)}" alt="${escapeHtml(product.name)}">`
-      : `<span>No image available</span>`;
-
+  const imageHtml = product.image
+  ? `<img src="images/${escapeHtml(product.image)}" alt="${escapeHtml(product.name)}">`
+  : `<span>No image available</span>`;
+  
     container.innerHTML = `
       <div class="product-details-grid">
         <div class="product-image">${imageHtml}</div>
