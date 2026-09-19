@@ -99,7 +99,7 @@ function renderProductCards(container, products) {
 
   container.innerHTML = products.map((product) => {
     const imageHtml = product.image
-      ? `<img src="images/${escapeHtml(product.image)}" alt="${escapeHtml(product.name)}" loading="lazy">`
+      ? `<img src="images/products/${escapeHtml(product.image)}" alt="${escapeHtml(product.name)}" loading="lazy">`
       : `<span>No image</span>`;
 
     return `

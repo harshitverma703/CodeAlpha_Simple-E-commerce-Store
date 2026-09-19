@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const product = data.product || data;
 
   const imageHtml = product.image
-  ? `<img src="images/${escapeHtml(product.image)}" alt="${escapeHtml(product.name)}">`
+  ? `<img src="images/products/${escapeHtml(product.image)}" alt="${escapeHtml(product.name)}">`
   : `<span>No image available</span>`;
   
     container.innerHTML = `

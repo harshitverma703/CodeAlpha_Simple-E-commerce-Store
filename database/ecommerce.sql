@@ -97,7 +97,7 @@ VALUES
 ('Formal Shirt',
  'Stylish formal shirt made with comfortable fabric for a clean modern look.',
  1299.00,
- 'shirting.jpg',
+ 'shirtimg.jpg',
  30,
  'Fashion'),
 
