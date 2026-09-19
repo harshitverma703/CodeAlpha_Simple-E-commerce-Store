@@ -1,4 +1,4 @@
-export const API_BASE_URL = "http://localhost:5000/api";
+export const API_BASE_URL = "https://codealphasimple-e-commerce-store-production.up.railway.app/api";
 
 export function getToken() {
   return localStorage.getItem("token");
