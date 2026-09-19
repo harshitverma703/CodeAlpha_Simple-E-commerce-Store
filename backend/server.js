@@ -21,7 +21,7 @@ app.use(express.json());
 
 app.get("/api", (req, res) => {
   res.json({
-    message: "ShopEase API is running",
+    message: "Saturn API is running",
     endpoints: {
       auth: "/api/auth",
       products: "/api/products",
@@ -54,7 +54,7 @@ async function startServer() {
     connection.release();
 
     app.listen(PORT, () => {
-      console.log(`ShopEase API running at http://localhost:${PORT}`);
+      console.log(`Saturn API running at http://localhost:${PORT}`);
     });
   } catch (error) {
     console.error("Could not connect to MySQL.");

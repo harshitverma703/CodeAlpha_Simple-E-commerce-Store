@@ -1,4 +1,4 @@
-# ShopEase Frontend
+# Saturn Frontend
 
 Responsive vanilla HTML/CSS/JavaScript frontend for the Express.js + MySQL e-commerce backend.
 

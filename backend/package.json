@@ -1,7 +1,7 @@
 {
-  "name": "shopease-backend",
+  "name": "Saturn-backend",
   "version": "1.0.0",
-  "description": "Express + MySQL backend for ShopEase e-commerce site",
+  "description": "Express + MySQL backend for Saturn e-commerce site",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
