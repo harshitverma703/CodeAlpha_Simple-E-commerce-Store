@@ -5,23 +5,23 @@ The application allows users to browse products, view product details, register/
 
 <h3>Customer Features</h3>-
 
-Responsive homepage.
-Product listing page.
-Product search.
-Product category filtering.
-Product details page.
-Product images.
-Shopping cart.
-Increase/decrease product quantity.
-Remove products from cart.
-Automatic cart total calculation.
-User registration.
-User login.
-JWT-based authentication.
-Checkout and shipping details.
-Order processing.
-Order history.
-Responsive mobile navigation.
+Responsive homepage.<br>
+Product listing page.<br>
+Product search.<br>
+Product category filtering.<br>
+Product details page.<br>
+Product images.<br>
+Shopping cart.<br>
+Increase/decrease product quantity.<br>
+Remove products from cart.<br>
+Automatic cart total calculation.<br>
+User registration.<br>
+User login.<br>
+JWT-based authentication.<br>
+Checkout and shipping details.<br>
+Order processing.<br>
+Order history.<br>
+Responsive mobile navigation.<br>
 
 <h3>Database Features</h3>
 The MySQL database stores:
